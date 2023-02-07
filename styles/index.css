@@ -268,5 +268,24 @@ h5 {
     width: 100%;
 }
 
+/* MARKETERS */
+
+.marketers {
+    margin-top: 104px;
+}
+
+.marketers__info {
+    max-width: 486px;
+    width: 100%;
+    height: 531px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.marketers__info--h2 {
+    transform: translateY(-15px);
+}
 
 /* border: 1px solid red; */
