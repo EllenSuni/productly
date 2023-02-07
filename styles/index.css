@@ -3,6 +3,9 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
+
+    display: flex;
+    flex-direction: column;
 }
 
 /* HEADER */
@@ -68,6 +71,19 @@ body {
     align-items: center;
     max-width: 1126px;
     width: 100%;
+}
+
+.btn--orange {
+    width: 175px;
+    height: 53px;
+    background-color: #FF9900;
+    border: none;
+    border-radius: 4px;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
 }
 
 h2 {
@@ -145,19 +161,6 @@ h5 {
 
     display: flex;
     justify-content: space-between;
-}
-
-.btn--orange {
-    width: 175px;
-    height: 53px;
-    background-color: #FF9900;
-    border: none;
-    border-radius: 4px;
-
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-    color: #FFFFFF;
 }
 
 .hero__btn--video {
@@ -272,6 +275,7 @@ h5 {
 
 .marketers {
     margin-top: 104px;
+    margin-bottom: 146px;
 }
 
 .marketers__info {
@@ -288,4 +292,69 @@ h5 {
     transform: translateY(-15px);
 }
 
-/* border: 1px solid red; */
+
+/* FOOTER */
+
+.footer {
+    align-self: center;
+    display: flex;
+    align-items: flex-end;
+    height: 308px;
+    margin-bottom: 83px;
+    border-top: 1px solid rgba(188, 208, 229, 0.5);
+}
+
+.footer__logo {
+    align-self: center;
+    transform: translateY(-20px);
+}
+
+.footer__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 205px;
+}
+
+.quick-links {
+    width: 118px;
+}
+
+.legal-stuff {
+    width: 132px;
+}
+.footer__text {
+    color: #544837;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+}
+
+.sign-up {
+    max-width: 325px;
+    width: 100%;
+    height: 199px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sign-up__text {
+    color: #2F281E;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.sign-up__input {
+    width: 100%;
+    height: 48px;
+    border: 1px solid #BCD0E5;
+    border-radius: 4px;
+}
+
+.sign-up__btn {
+    width: 131px;
+    height: 39px;
+}
